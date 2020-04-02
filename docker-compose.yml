@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  asm:
+    build: .
+    image: asm
+    volumes:
+      - .:/mnt
+    tty: true
